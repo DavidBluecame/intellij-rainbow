@@ -45,6 +45,9 @@ https://plugins.jetbrains.com/plugin/8214
 * `./gradlew buildPlugin`
 * `./gradlew test`
 
+## Building Notes
+* OpenJDK 8 (1.8) has to be installed. If OpenJDK 11 or higher is installed the build breaks with error finding Java 11.x.x
+
 ## License
 
 Copyright © 2016 zjhmale
